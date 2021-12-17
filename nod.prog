@@ -1,0 +1,17 @@
+input 101
+input 102
+compare 101 102
+jmpeq res
+jmplo dif
+
+minus 101 102 101
+go compare
+
+point dif
+minus 102 101 102
+go compare
+
+point res
+output 101
+
+stop

@@ -1,0 +1,15 @@
+input 101
+input 102
+
+plus 101 102 103
+output 103
+
+minus 101 102 104
+output 104
+
+multiply 101 102 105
+output 105
+
+divide 101 102 106
+output 106
+stop

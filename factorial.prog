@@ -1,0 +1,19 @@
+input 101
+new 102 1
+new 103 1
+new 104 0
+multiply 101 103 103
+minus 101 102 101
+compare 101 104
+
+jmpmo factorial
+jmpeq res
+
+point factorial
+multiply 101 103 103
+go minus
+
+point res
+output 103
+
+stop
