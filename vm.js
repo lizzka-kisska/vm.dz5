@@ -84,6 +84,7 @@ while (ram[i]!='stop'){
         case 'new':
             ram[Number(ram[i+1])]=ram[i+2];
             i += 3;
+            break
         
     }
 }
